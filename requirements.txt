@@ -4,3 +4,4 @@ matplotlib
 geopandas
 numpy
 cartopy
+proj
