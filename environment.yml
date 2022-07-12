@@ -1,0 +1,8 @@
+channels:
+  - conda-forge
+dependencies:
+  - python==3.9
+  - pip==22.1.2
+  - proj==9.0.1
+  - cartopy==0.20.3
+  
