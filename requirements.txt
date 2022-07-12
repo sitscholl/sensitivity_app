@@ -3,5 +3,5 @@ pandas
 matplotlib
 geopandas
 numpy
-cartopy
+cartopy=0.20.2
 proj
