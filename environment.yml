@@ -2,13 +2,12 @@ channels:
   - conda-forge
 dependencies:
   - python==3.9
-  - cartopy
-  - geopandas
-  - pip
-  - proj
-  - matplotlib
-  - numpy
-  - pandas
+  - cartopy==0.20.3
+  - pip==22.1.2
+  - proj==9.0.1
+  - matplotlib==3.5.2
+  - numpy==1.23
+  - pandas==1.4.3
+  - notion_client==1.0.0
   - pip:
-    - streamlit
-  
+    - streamlit==1.10.0  
