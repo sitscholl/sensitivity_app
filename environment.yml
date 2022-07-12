@@ -8,6 +8,6 @@ dependencies:
   - matplotlib==3.5.2
   - numpy==1.23
   - pandas==1.4.3
-  - notion_client==1.0.0
+  - notion-client==1.0.0
   - pip:
     - streamlit==1.10.0  
