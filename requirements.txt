@@ -1,6 +1,0 @@
-streamlit
-pandas
-matplotlib
-geopandas
-numpy
-cartopy<=0.20.0
