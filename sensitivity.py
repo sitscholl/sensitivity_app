@@ -173,7 +173,7 @@ ax.set_xticks([])
 ax.set_yticks([])
 st.pyplot(fig)
 
-st.caption(f'Group size: {len(pdo_class)} PDOs')
+st.caption(f'PDOs within this climate class: {len(pdo_class)} PDOs')
 
 with st.expander('Detailed info on all PDOs in this climate class'):
     st.dataframe(pdo_class.drop('geometry', axis = 1).set_index('PDOnam'))
