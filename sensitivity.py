@@ -50,7 +50,7 @@ col1.markdown(f'**Name: {selected_nam}**')
 col2.markdown(f'**Climate class: {selected_catI}**')
 col1, col2 = st.columns(2)
 col1.markdown(f'**ID: {pdo_selected}**')
-st.dataframe(selected_data[['Category_of_wine_product', 'Main_vine_varieties']])
+st.dataframe(selected_data[['Category_of_wine_product', 'Main_vine_varieties']].set_index('Category_of_wine_product'))
 
 with st.sidebar:
     #Select Wine Category
